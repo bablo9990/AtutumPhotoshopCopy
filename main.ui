@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>703</width>
+    <height>502</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>10</number>
+    </property>
+    <property name="topMargin">
+     <number>10</number>
+    </property>
+    <property name="rightMargin">
+     <number>10</number>
+    </property>
+    <property name="bottomMargin">
+     <number>10</number>
+    </property>
+    <property name="spacing">
+     <number>5</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>681</width>
+         <height>429</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="1" rowspan="2">
+         <widget class="QLabel" name="PicContainer">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(53, 53, 53);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QToolBox" name="toolBox">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(45, 45, 45);</string>
+          </property>
+          <property name="currentIndex">
+           <number>2</number>
+          </property>
+          <widget class="QWidget" name="Page1">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>98</width>
+             <height>28</height>
+            </rect>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <attribute name="label">
+            <string>Page 1</string>
+           </attribute>
+           <widget class="QPushButton" name="greyButton">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>101</width>
+              <height>28</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Playball</family>
+              <pointsize>10</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(68, 68, 68);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+letter-spacing: 2px;
+background-size: 200% auto;
+box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.970149 rgba(49, 49, 49, 255), stop:0.995025 rgba(255, 255, 255, 255));
+</string>
+            </property>
+            <property name="text">
+             <string>Ч/Б</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="ShapePLusButton">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>30</y>
+              <width>101</width>
+              <height>28</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Playball</family>
+              <pointsize>10</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(68, 68, 68);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+letter-spacing: 2px;
+background-size: 200% auto;
+box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.970149 rgba(49, 49, 49, 255), stop:0.995025 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>Резкость +</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="ShapeMinusButton">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>60</y>
+              <width>101</width>
+              <height>28</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Playball</family>
+              <pointsize>10</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(68, 68, 68);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+letter-spacing: 2px;
+background-size: 200% auto;
+box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.970149 rgba(49, 49, 49, 255), stop:0.995025 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>Резкость -</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="BlurButton">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>90</y>
+              <width>101</width>
+              <height>28</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Playball</family>
+              <pointsize>10</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(68, 68, 68);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+letter-spacing: 2px;
+background-size: 200% auto;
+box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.970149 rgba(49, 49, 49, 255), stop:0.995025 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>Размытие</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="InversionButton">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>120</y>
+              <width>101</width>
+              <height>28</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Playball</family>
+              <pointsize>10</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(68, 68, 68);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+letter-spacing: 2px;
+background-size: 200% auto;
+box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.970149 rgba(49, 49, 49, 255), stop:0.995025 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>Инверсия</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="InversionGreyButton">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>150</y>
+              <width>101</width>
+              <height>28</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Playball</family>
+              <pointsize>8</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(68, 68, 68);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+letter-spacing: 2px;
+background-size: 200% auto;
+box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.970149 rgba(49, 49, 49, 255), stop:0.995025 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>Инверсия Ч/Б</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="SovetButton">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>180</y>
+              <width>101</width>
+              <height>28</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Playball</family>
+              <pointsize>10</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(68, 68, 68);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+letter-spacing: 2px;
+background-size: 200% auto;
+box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.970149 rgba(49, 49, 49, 255), stop:0.995025 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>Ретро</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="Page2">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>100</width>
+             <height>314</height>
+            </rect>
+           </property>
+           <attribute name="label">
+            <string>Page 2</string>
+           </attribute>
+           <widget class="QPushButton" name="LeftRotate">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>93</width>
+              <height>28</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Playball</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(68, 68, 68);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+letter-spacing: 2px;
+background-size: 200% auto;
+box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.970149 rgba(49, 49, 49, 255), stop:0.995025 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>Лево</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="RightRotate">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>30</y>
+              <width>93</width>
+              <height>28</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Playball</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(68, 68, 68);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+letter-spacing: 2px;
+background-size: 200% auto;
+box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.970149 rgba(49, 49, 49, 255), stop:0.995025 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="text">
+             <string>Право</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="MirrorButton">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>60</y>
+              <width>93</width>
+              <height>28</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Playball</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(68, 68, 68);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+letter-spacing: 2px;
+background-size: 200% auto;
+box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.970149 rgba(49, 49, 49, 255), stop:0.995025 rgba(255, 255, 255, 255));
+</string>
+            </property>
+            <property name="text">
+             <string>Зеркало</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="Page3">
+           <attribute name="label">
+            <string>Page</string>
+           </attribute>
+           <widget class="QListWidget" name="listWidget">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>0</y>
+              <width>81</width>
+              <height>192</height>
+             </rect>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>703</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuopen">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew_Ctrl_N"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave_Ctrl_S"/>
+    <addaction name="actionSave_As"/>
+    <addaction name="actionClose_Alt_F4"/>
+   </widget>
+   <widget class="QMenu" name="menuNew">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionUndo_Ctrl_Z"/>
+    <addaction name="actionDo_again_Ctrl_Shift_Z"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionHelp_Dialog"/>
+   </widget>
+   <addaction name="menuopen"/>
+   <addaction name="menuNew"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew_Ctrl_N">
+   <property name="text">
+    <string>New...            Ctrl + N</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open             Ctrl + O</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionSave_Ctrl_S">
+   <property name="text">
+    <string>Save              Ctrl + S</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSave_As">
+   <property name="text">
+    <string>Save As</string>
+   </property>
+   <property name="shortcut">
+    <string>Backspace</string>
+   </property>
+  </action>
+  <action name="actionSave_All_Ctrl_Shift_Alt">
+   <property name="text">
+    <string>Save All      Ctrl + Shift +Alt</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+S</string>
+   </property>
+  </action>
+  <action name="actionClose_Alt_F4">
+   <property name="text">
+    <string>Close          Alt + F4</string>
+   </property>
+  </action>
+  <action name="actionUndo_Ctrl_Z">
+   <property name="text">
+    <string>Undo           Ctrl +Z</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actionDo_again_Ctrl_Shift_Z">
+   <property name="text">
+    <string>Do again    Ctrl + Shift + Z</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+Z</string>
+   </property>
+  </action>
+  <action name="actionRedo_Ctrl_Y">
+   <property name="text">
+    <string>Redo           Ctrl + Y</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Y</string>
+   </property>
+  </action>
+  <action name="actionCopy_Ctrl_C">
+   <property name="text">
+    <string>Copy           Ctrl + C</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionCut_Ctrl_X">
+   <property name="text">
+    <string>Cut              Ctrl + X</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionPaste_Ctrl_V">
+   <property name="text">
+    <string>Paste           Ctrl + V</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionChange">
+   <property name="text">
+    <string>Change</string>
+   </property>
+  </action>
+  <action name="actionInstall">
+   <property name="text">
+    <string>Install</string>
+   </property>
+  </action>
+  <action name="actionHelp_Dialog">
+   <property name="text">
+    <string>Help Dialog</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
